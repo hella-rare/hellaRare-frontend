@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hella Rare</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="../market/popup.css">
+<link href="https://straight-code.github.io/assets/hellaRare.png" rel="shortcut icon">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="light-theme dark-theme">
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="header-inner d-flex justify-content-between align-items-center">
+          <a class="navbar-brand flex-shrink-0" href="#"><img src="https://straight-code.github.io/assets/hellaRare.png" style="width: 100px;" alt="logo-image" class="img-fluid">
+            </a>
+          <div class="header-content d-flex align-items-center justify-content-end">
+            <form class="d-flex justify-content-end align-items-center">
+              <div class="search-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              </div>
+              <label class="switch flex-shrink-0 mb-0">
+                <input id="checkbox" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </form>
+          
+          </div>
+        </div>
+        <button class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <div class="nft-store">
+    <div class="container-fluid">
+      <div class="nft-store-inner d-flex">
+        <div class="menu-links">
+          <ul>
+            <li class="nav-item ">
+              <a href="../index.html" class="d-flex align-items-center nav-link"><i class="fa fa-home" aria-hidden="true"></i>
+                <span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../market/index.html" class="d-flex align-items-center nav-link"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                <span>Market</span></a>
+            </li>
+            <li class="nav-item active">
+              <a href="../favourite/index.html" class="d-flex align-items-center nav-link"><i class="fa fa-heart-o" aria-hidden="true"></i>
+                <span>Favourite</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../collections/index.html" class="d-flex align-items-center nav-link"><i class="fa fa-square-o" aria-hidden="true"></i>
+                <span>Collections</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../trending/index.html" class="d-flex align-items-center nav-link"><i class="fa fa-fire" aria-hidden="true"></i>
+                <span>Trending</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="../nfts/index.html" class="d-flex align-items-center nav-link"><i class="fa fa-star" aria-hidden="true"></i>
+                <span>My NFTs</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nft-store-content">
+          <div class="nft-up-content">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="fire-bubble-art d-flex justify-content-between  align-items-center">
+                  <img src="../assets/hr-logo-fff.jpg" alt="fire-bubble-image" class="img-fluid fire-image fire-width">
+                  <div class="fire-content fire-width">
+                    <h3 class="mb-0">My Favourites</h3>
+                    
+                    <div class="d-flex fire-links">
+                      <a href="../trending/index.html" class="theme-btn">View Trending</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <figure class="paint-image" style="background: url('../assets/hr-logo-fff.jpg') no-repeat center center / cover;">
+                  <h1>Buy NFT on Hella Rare</h1>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="trending">
+            <div class="trending-title">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                  <h2 style="margin-left: 20px;">My Favourite Collections</h2>
+                </div>
+                <div class="col-6 text-right">
+                  <div class="small-spacer"></div>
+                  <a href="../market/index.html" class="theme-btn" style="padding: 10px;"> View More </a>
+                </div>
+              </div>
+            </div>
+            <div class="trending-grid">
+              <div class="row">
+              <div class="col-md-4">
+                <div class="trending-content">
+                  <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                  <div class="trending-desc">
+                    <h4 class="user-title">straight-code</h4>
+                    <h3 class="user-position">straight coder</h3>
+                    <div class="bid d-flex justify-content-between align-items-center">
+                      <div>
+                        <h5>current Bid</h5>
+                        <span>1.70 ETH</span>
+                      </div>
+                      <div>
+                        <h5>See More</h5>
+                        <span>
+                          <a href="#popup1" class="theme-btn" style="padding: 10px;">View</a>
+                          <div id="popup1" class="popup">
+                           <a href="#" class="close">&times;</a>
+                      
+                             <div class="trending-content">
+                               <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                               <div class="trending-desc">
+                                 <h4 class="user-title">straight-coder #34</h4>
+                                 <h3 class="user-position">straight coder</h3>
+                                 <div class="bid d-flex justify-content-between align-items-center">
+                                   <div>
+                                     <h4>Highest Bid</h4>
+                                     <span>10 ETH</span>
+                                   </div>
+                                   <div>
+                                     <h4>Bid Amount: </h4>
+                                     <span>
+                                       <input type="number" style="padding: 10px; color: #fff; background-color: var(--body-color);" placeholder="1.93 ETH" />
+                                       <a href="">
+                                         <svg xmlns="http://www.w3.org/2000/svg" style="margin: 10px; font-size: 25px; margin-bottom: 15px" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                           <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                           <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                         </svg>
+                                       </a>
+                                     </span>
+     
+                                   </div>
+                                 </div>
+                           
+                               </div>
+                             </div>
+                          </div>
+                           <a href="#" class="close-popup"></a>
+                        </span>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+           
+
+            <div class="col-md-4">
+              <div class="trending-content">
+                <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                <div class="trending-desc">
+                  <h4 class="user-title">straight-code</h4>
+                  <h3 class="user-position">straight coder</h3>
+                  <div class="bid d-flex justify-content-between align-items-center">
+                    <div>
+                      <h5>current Bid</h5>
+                      <span>1.70 ETH</span>
+                    </div>
+                    <div>
+                      <h5>See More</h5>
+                      <span>
+                        <a href="#popup1" class="theme-btn" style="padding: 10px;">View</a>
+                        <div id="popup1" class="popup">
+                         <a href="#" class="close">&times;</a>
+                    
+                           <div class="trending-content">
+                             <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                             <div class="trending-desc">
+                               <h4 class="user-title">straight-coder #34</h4>
+                               <h3 class="user-position">straight coder</h3>
+                               <div class="bid d-flex justify-content-between align-items-center">
+                                 <div>
+                                   <h4>current Bid</h4>
+                                   <span>0.70 ETH</span>
+                                 </div>
+                                 <div>
+                                   <h4>Bid Amount: </h4>
+   
+                                   <span>
+                                     <input type="number" style="padding: 10px; color: #fff; background-color: var(--body-color);" placeholder="1.93 ETH" />
+                                     <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" style="margin: 10px; font-size: 25px; margin-bottom: 15px" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                         <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                       </svg>
+                                     </a>
+                                   </span>
+   
+                                 </div>
+                               </div>
+                         
+                             </div>
+                           </div>
+                        </div>
+                         <a href="#" class="close-popup"></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <div class="col-md-4">
+              <div class="trending-content">
+                <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                <div class="trending-desc">
+                  <h4 class="user-title">straight-code</h4>
+                  <h3 class="user-position">straight coder</h3>
+                  <div class="bid d-flex justify-content-between align-items-center">
+                    <div>
+                      <h5>current Bid</h5>
+                      <span>1.70 ETH</span>
+                    </div>
+                    <div>
+                      <h5>See More</h5>
+                      <span>
+                        <a href="#popup1" class="theme-btn" style="padding: 10px;">View</a>
+                        <div id="popup1" class="popup">
+                         <a href="#" class="close">&times;</a>
+                    
+                           <div class="trending-content">
+                             <img src="../assets/hr-logo-fff.jpg"  alt="card-images" class="img-fluid">
+                             <div class="trending-desc">
+                               <h4 class="user-title">straight-coder #34</h4>
+                               <h3 class="user-position">straight coder</h3>
+                               <div class="bid d-flex justify-content-between align-items-center">
+                                 <div>
+                                   <h4>current Bid</h4>
+                                   <span>0.70 ETH</span>
+                                 </div>
+                                 <div>
+                                   <h4>Bid Amount: </h4>
+   
+                                   <span>
+                                     <input type="number" style="padding: 10px; color: #fff; background-color: var(--body-color);" placeholder="1.93 ETH" />
+                                     <a href="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" style="margin: 10px; font-size: 25px; margin-bottom: 15px" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                         <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                       </svg>
+                                     </a>
+                                   </span>
+   
+                                 </div>
+                               </div>
+                         
+                             </div>
+                           </div>
+                        </div>
+                         <a href="#" class="close-popup"></a>
+                      </span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+ 
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Apr 30, 2022 15:37:25").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+      
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo1").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+</body>
+</html>
